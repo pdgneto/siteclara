@@ -361,7 +361,7 @@ a {
 
 @media (max-width: 768px) {
 
-.navbar {
+    .navbar {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -380,6 +380,15 @@ a {
 
     .nav-btn {
         display: none;
+    }
+
+    header {
+        height: auto;
+        padding: 0;
+    margin: 0 auto;      
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     h1 {
@@ -448,6 +457,7 @@ a {
     .nav-links li {
         margin: 10px 0;
     }
+
     .navbar {
         align-items: flex-start;
         gap: 1rem;
