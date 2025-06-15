@@ -448,9 +448,6 @@ a {
     .nav-links li {
         margin: 10px 0;
     }
-}
-
-@media (max-width: 480px) {
     .navbar {
         align-items: flex-start;
         gap: 1rem;
